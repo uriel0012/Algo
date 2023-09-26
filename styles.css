@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+/* EStilos generales*/
+*
+{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.encabezado
+{
+    display: flex;
+    width: 100vw;
+    height: 115px;
+    
+}
+
+.encabezado .encabezado-input
+{
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    padding: 50px 0 0 50px;
+    
+}
+
+.encabezado .encabezado-input div
+{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    border-bottom: 2px solid black;
+    
+}
+.encabezado .encabezado-input .encabezado-lupita
+{
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background-image: url(/Imagenes/4781817_brows_browsing_find_search_seo_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.encabezado .encabezado-input input
+{
+    display: inline-block;
+    width: 170px;
+    height: 20px;
+    border:  none;
+    outline: none;
+    font-size: 17px;
+    font-weight: lighter;
+    color: gray;
+
+}
+
+.encabezado .encabezado-logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    
+}
+
+.encabezado .encabezado-logo span
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url("https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/shield-half-sharp-64.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.encabezado .encabezado-logo div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 100px;
+    
+}
+
+.encabezado .encabezado-logo div h2
+{
+    margin-bottom: 5px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.encabezado .encabezado-logo div h3
+{
+    width: 100%;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.encabezado .encabezado-iconos
+{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    background-color:coral;
+    padding: 0 20px 0 0;
+}
+
+.encabezado .encabezado-iconos a
+{
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.encabezado .encabezado-iconos .icono
+{
+    display: inline-block;
+    width: 30px;
+}
+
+.encabezado .encabezado-iconos .icono .iconos-perfil
+{
+    background-image:url("3994415_account_avatar_person_profile_user_icon.png") ;
+    width: 25px;
+    height: 25px;
+}
+
+.encabezado .encabezado-iconos .icono .iconos-face
+{
+    background-image: url("104498_facebook_icon.png");
+}
+
+.encabezado .encabezado-iconos .icono .iconos-insta
+{
+    background-image: url("1161953_instagram_icon.png");
+}
+
+.encabezado .encabezado-iconos .icono .iconos-twitter
+{
+    background-image: url("104501_twitter_bird_icon.png");
+}
+
+.encabezado .encabezado-iconos .icono .iconos-youtube
+{
+    background-image: url("5305164_play_video_youtube_youtube\ logo_icon.png")
+}
+.encabezado .encabezado-iconos .iconos-boton
+{
+    font-size: 16px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+
+

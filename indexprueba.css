@@ -1,0 +1,338 @@
+header
+{
+
+}
+
+
+ label
+{
+    padding-left: 5%;
+    width: 300px;
+    padding-top: -50%;
+    
+}
+
+
+.Logo img
+{
+    width: 150px;
+    padding-left: 50%;
+    padding-top: 5%;
+}
+
+nav li 
+{
+    background-color: midnightblue;
+    list-style-type: none;
+    border: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+
+nav li ul a 
+{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+
+
+nav a:hover
+{
+    
+    color: black;
+}
+
+
+body
+{
+    font-family: sans-serif;
+}
+
+.Sección1 
+{   
+    background-image: url("https://images.wallpapersden.com/image/download/mortal-kombat-11-poster_a2pmbW6UmZqaraWkpJRobWplrWdma2s.jpg");
+    background-attachment: fixed;
+    color: black;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+
+ .borde
+{
+    border: solid;
+    background-color: rgb(174, 98, 174);
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right:75%;
+
+}
+
+.borde a
+{
+    text-decoration: none;
+    border: solid;
+    background-color:plum;
+    color: white;
+}
+
+.borde a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.Sección2 
+{
+    text-align: center;
+    font-size: 40px;
+    overflow: hidden;
+}
+
+.boton
+{
+    background-color: blueviolet;
+    display: inline-block;
+    bottom: 30px;
+    height: 30%;
+    cursor:pointer;
+}
+
+.boton:hover
+{
+    background-color: white;
+}
+
+.Estilossecc2
+{
+    display: flex;
+    display: inline-block;
+}
+
+.cuadro1, .cuadro0, .cuadro3, .cuadro4
+{
+    margin-bottom: 40px;
+    width: 50%;
+    display: inline-block;
+    left: 30%;
+    top: 30%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cuadro1 h2
+{
+    color: rgb(103, 63, 167);
+    
+}
+
+.cuadro1 p 
+{
+    color:white;
+}
+
+
+.cuadro1 button
+{
+    background-color: rgb(118, 76, 224);
+    cursor: pointer;
+}
+
+.cuadro1 button:hover
+{
+    background-color: white;
+}
+
+.cuadro4 h2
+{
+    color: rgb(135, 61, 203);
+}
+
+.cuadro4 p
+{
+    color: white;
+}
+
+.cuadro4 button
+{
+    background-color: rgb(109, 85, 217);
+    cursor: pointer;
+}
+
+.cuadro4 button:hover
+{
+    background-color: white;
+}
+
+.cuadro1,.cuadro4
+{
+    background-color: rgb(24, 22, 64);
+}
+
+.cta-btn
+{   box-shadow: skyblue;
+    border: solid;
+    background-color: skyblue;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+}
+
+.cta-btn:hover
+{
+    background-color:black;
+}
+
+.Sección3
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+.Sección3 img
+{
+    width: 200px;
+    
+}
+
+.Sección3 img a
+{
+    position: absolute;
+}
+
+.medidas
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.medidas button
+{
+    background-color:black;
+    color:white;
+    height: 30px;
+    cursor: pointer;
+}
+
+.medidas button:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.noticias
+{
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color:white;
+    background-color: skyblue;
+}
+
+.noticias:hover
+{
+    background-color:black;
+}
+
+.Seccion4
+{
+    text-align: center;
+    font-size: 40px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.Seccion4 img
+{
+    width: 250px;
+}
+
+.Sección5
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+.Sección5 input
+{
+    background-color: blueviolet;
+    width: 300px;
+}
+
+
+.Sección5 a
+{
+    text-decoration: none;
+    border: solid;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: medium;
+    padding-right: 5px;
+}
+
+.Sección5 a:hover
+{
+    background-color: darkblue;
+}
+
+
+.footer-style ul li a
+{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+.footer-style ul li a:hover
+{
+    background-color:rgb(185, 6, 6);
+    
+}
+
+
+footer p
+{
+    color: white;
+}
+
+
+.footer-style
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.footer-style a
+{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+footer
+{
+    padding: 20px 0;
+    text-align: center;
+    background-color:black;
+    
+}
